@@ -62,3 +62,5 @@ userTwo.email = "hitesh@google.com"
 console.log(userOne.email);
 console.log(userTwo.email);
 
+// stack ke andar koi chizz lenge toh hamesha uska copy milega aur heap me original refrence milta ha toh jo changes refrence variable karega woh baki sabke liye change hoga
+
