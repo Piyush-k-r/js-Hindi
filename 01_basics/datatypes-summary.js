@@ -39,3 +39,26 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack ( primitive) , Heap ( Non- Primitive)
+
+let myYoutubename = " piyushKumardotcom"
+let anothername =  myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(myYoutubename);
+
+let userOne = {
+    email: " user@google.com" // objects 
+    upi: "user@ybl"           // objects
+}
+
+;et userTwo = userOne    // non primituve data types sharre original refence of the value not an copy like primitives so the changes made by any one refrence variable will change the real object properties or object
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
