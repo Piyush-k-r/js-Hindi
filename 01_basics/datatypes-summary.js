@@ -24,13 +24,13 @@ console.log(id === anotherId);
 
 // Reference (Non primitive)
 
-// Array, Objects, Functions
+// Array, Objects, Functions  all non-primitive data types are considered objects.
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {                           // objects ke liye {} use karte ha
     name: "hitesh",
     age: 22,
-}
+ }
 
 const myFunction = function(){
     console.log("Hello world");
