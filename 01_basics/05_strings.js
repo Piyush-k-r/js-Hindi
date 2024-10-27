@@ -33,4 +33,7 @@ console.log(newStringOne.trim()); // removes the extra spaces lieft during writi
 
 const url = "https://piyush.com/piyush%20kumar"
 
-console.log(url.replace('%20','-')) // output => https://piyush.com/piyush-kuma
+console.log(url.replace('%20','-')) // output => https://piyush.com/piyush-kumar => the first value is the one we want to replace with the second value we give
+// includes method tells us whether a substring is present or not in the given String
+
+console.log(url.includes('piyush'))
