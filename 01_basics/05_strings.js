@@ -22,6 +22,15 @@ console.log(newString);
 const anotherString = gameName.slice(-8,4) // it takes negative values too it means the for the example it will count from thr last of the string "ite"
 console.log(anotherString);
 
+// trimn method
 const newStringOne = "      piyush      "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); // removes the extra spaces lieft during writing the string 
+                                  //If neither the beginning or end of str has any whitespace, a new string is still returned (essentially a copy of str).
+
+
+// replace method
+
+const url = "https://piyush.com/piyush%20kumar"
+
+console.log(url.replace('%20','-')) // output => https://piyush.com/piyush-kuma
