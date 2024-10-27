@@ -14,3 +14,14 @@ console.log(otherNumber.toPrecision(2)); // it gives us the round of value for a
 const hundreds = 100000
 console.log(hundreds.toLocalString('en-IN')); // ==> 10,00.000
 
+//++++++++++++++++ Maths ++++++++++++++++++++++++++++
+
+// Maths it's a kind of library 
+
+console.log(Math);
+console.log(Math.abs(-4)); // it's used to change the sign of negative no's to positive
+console
+console.log(Math.round(4.6)); // it will round off the value according to natural maths rule 
+// but if wewant to control the rounded off value to be the lower one or the higher one so we can use 
+console.log(Math.ceil(4.2)); // the value will be 5
+console.log(Math.floor(4.9)); // this will give value 4 
