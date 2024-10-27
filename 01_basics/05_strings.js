@@ -21,3 +21,7 @@ console.log(newString);
 
 const anotherString = gameName.slice(-8,4) // it takes negative values too it means the for the example it will count from thr last of the string "ite"
 console.log(anotherString);
+
+const newStringOne = "      piyush      "
+console.log(newStringOne);
+console.log(newStringOne.trim());
