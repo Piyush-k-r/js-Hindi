@@ -18,10 +18,27 @@ console.log(hundreds.toLocalString('en-IN')); // ==> 10,00.000
 
 // Maths it's a kind of library 
 
-console.log(Math);
-console.log(Math.abs(-4)); // it's used to change the sign of negative no's to positive
-console
+//onsole.log(Math);
+//console.log(Math.abs(-4)); // it's used to change the sign of negative no's to positive
+//console
 console.log(Math.round(4.6)); // it will round off the value according to natural maths rule 
 // but if wewant to control the rounded off value to be the lower one or the higher one so we can use 
-console.log(Math.ceil(4.2)); // the value will be 5
-console.log(Math.floor(4.9)); // this will give value 4 
+//console.log(Math.ceil(4.2)); // the value will be 5
+//console.log(Math.floor(4.9)); // this will give value 4 
+//console.log(Math.min(4,3,6,8)); // 3 answer
+//console.log(Math.max(4,5,6,8)); // 8 answer
+
+console.log(Math.random());)
+console.log((Math.random()*10 + 1); // this gives us random vaalues between 1 and 10 => here .random guves random values bwtween 0 and 1 so we multiply by 10 and add 1 so that to avoid the values below 0\
+console.log(Math.floor(Math.random()*10) + 1);// gives the value but the below ones randow values single didit and below values 
+
+// now suppose we want random values between 10 and 20
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * ( max - min +1)) + min ) // folmula for this situation 
+
+
+
+
+
