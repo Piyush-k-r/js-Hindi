@@ -20,4 +20,14 @@
  //console.log(myTimeStamp);  // this gives the value in milisecond
  //console.log(myCreatedDate.getTime());
  console.log(Math.floor(Date.now() / 1000)); // if we want value in secs then we divide by 1000 and for getting notba decimal value we useed floor here
- 
+ let newDate = new Date()
+console.log(newDate);
+// we use the below methods to get the required data without even changing the whole to into string 
+console.log(newDate.getMonth() + 1);//9 according to now // we addd plus 1 cause it counts month from 0 like arrays
+console.log(newDate.getDay());
+
+// '${newDate.getDay()} and the time
+newDate.toLocaleString ('default' , {
+    weekday : " long"
+}) // STUDY ALLITLE MORE ABOUT THIS METHOD
+
